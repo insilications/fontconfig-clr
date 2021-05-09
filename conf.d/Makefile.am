@@ -57,6 +57,7 @@ config_DATA = $(DOC_FILES)
 
 templatedir = $(TEMPLATEDIR)
 template_DATA =				\
+	10-antialiasing.conf		\
 	05-reset-dirs-sample.conf	\
 	09-autohint-if-no-hinting.conf	\
 	10-autohint.conf		\
