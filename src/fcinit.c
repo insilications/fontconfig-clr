@@ -46,6 +46,8 @@ FcInitFallbackConfig (const FcChar8 *sysroot)
 	"  <cachedir>" FC_CACHEDIR "</cachedir>" \
 	"  <cachedir prefix=\"xdg\">fontconfig</cachedir>" \
 	"  <include ignore_missing=\"yes\">" CONFIGDIR "</include>" \
+	"  <include ignore_missing=\"no\">/usr/share/defaults/fonts/conf.d</include>" \
+	"  <include ignore_missing=\"no\">/usr/share/defaults/fonts/fonts.conf</include>" \
 	"  <include ignore_missing=\"yes\" prefix=\"xdg\">fontconfig/conf.d</include>" \
 	"  <include ignore_missing=\"yes\" prefix=\"xdg\">fontconfig/fonts.conf</include>" \
 	"</fontconfig>";
